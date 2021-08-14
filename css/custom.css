@@ -3,9 +3,13 @@ p, span, li, a {
     font-size: 24px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link {
@@ -36,7 +40,7 @@ h2 {
 }
 
 .hero-btn {
-    padding: 25px 80px;
+    padding: 20px 80px;
 }
 
 .content-link {
@@ -50,4 +54,26 @@ h2 {
     color: #ffffff;
     border-bottom: 5px solid #555755;
     transition: all 0.2s ease-in;
+}
+
+.content-border {
+    width: 60px;
+    height: 1px;
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+.social-link {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    margin-left: 0px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 }
