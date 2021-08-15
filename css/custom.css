@@ -103,3 +103,43 @@ h2 {
 .footer-logo {
     margin-left: 0;
 }
+
+.mobile-nav {
+    display: none !important;
+}
+
+.btn-close {
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .social-link {
+        margin-right: 10px;
+    }
+
+    .spacebreak {
+        display: none;
+    }
+
+    .step-container h3 {
+        font-size: 20px;
+    }
+
+    .step-container p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-nav {
+        display: flex !important;
+    }
+
+    .desktop-nav {
+        display: none !important;
+    }
+
+    .nav-link {
+        margin: 0 !important;
+    }
+}
