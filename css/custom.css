@@ -49,7 +49,7 @@ h2 {
     font-size: 60px;
 }
 
-.hero-section, .how-section, .work-section {
+.hero-section, .how-section, .work-section, .footer {
     padding: 80px 0px;
 }
 
@@ -121,11 +121,11 @@ h2 {
         display: none;
     }
 
-    .step-container h3 {
+    .row.d-flex.justify-content-center.align-items-center h3 {
         font-size: 20px;
     }
 
-    .step-container p {
+    .row.d-flex.justify-content-center.align-items-center > p {
         font-size: 16px;
     }
 }
@@ -141,5 +141,59 @@ h2 {
 
     .nav-link {
         margin: 0 !important;
+    }
+
+    .container.steps-container > .row.mb-4.p-4 {
+        padding: 0.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1.hero-text {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p, a {
+        font-size: 16px;
+    }
+
+    .hero-btn {
+        padding: 10px;
+    }
+
+    .nav-logo {
+        width: 75%;
+    }
+
+    .content-link {
+        width: 100%;
+    }
+
+    .step-col {
+        margin-bottom: 30px;
+    }
+
+    .container.steps-container > .row.mb-4.p-4 {
+        margin-bottom: 0px !important;
+    }
+
+    section.bg-dark.work-section.text-light, section.bg-dark.how-section.text-light {
+        text-align: center;
+    }
+
+    .footer .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    .footer .col-md-6:first-child {
+        padding-bottom: 20px;
+    }
+
+    .footer {
+        padding: 40px 0px;
     }
 }
