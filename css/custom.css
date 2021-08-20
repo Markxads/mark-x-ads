@@ -112,6 +112,10 @@ h2 {
     color: #ffffff !important;
 }
 
+.btn-row > button:first-child {
+    margin-right: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
     .social-link {
         margin-right: 10px;
@@ -145,6 +149,10 @@ h2 {
 
     .container.steps-container > .row.mb-4.p-4 {
         padding: 0.5rem !important;
+    }
+
+    .hero-btn {
+        padding: 15px 25px; 
     }
 }
 
@@ -199,5 +207,13 @@ h2 {
 
     .footer .col-md-6 {
         text-align: center !important;
+    }
+
+    .btn-row > button {
+        width: 100%;
+    }
+
+    .btn-row > button:first-child {
+        margin-bottom: 20px;
     }
 }
