@@ -196,4 +196,8 @@ h2 {
     .footer {
         padding: 40px 0px;
     }
+
+    .footer .col-md-6 {
+        text-align: center !important;
+    }
 }
