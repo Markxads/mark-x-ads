@@ -116,6 +116,19 @@ h2 {
     margin-right: 20px;
 }
 
+.card.mb-5.mb-xl-0.bg-offwhite {
+    height: 100%;
+}
+
+.mobile-featured, .mobile-pricing {
+    display: none;
+}
+
+.owl-dots, .owl-nav {
+    height: 0;
+    display: none;
+}
+
 @media only screen and (max-width: 1024px) {
     .social-link {
         margin-right: 10px;
@@ -153,6 +166,16 @@ h2 {
 
     .hero-btn {
         padding: 15px 25px; 
+    }
+
+    .desktop-featured, .desktop-pricing {
+        display: none;
+    }
+
+    .mobile-featured, .mobile-pricing {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }
 
