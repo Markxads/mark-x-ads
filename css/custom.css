@@ -133,6 +133,10 @@ h2 {
     width: 50%;
 }
 
+.card-body li {
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
     .social-link {
         margin-right: 10px;
@@ -148,6 +152,18 @@ h2 {
 
     .row.d-flex.justify-content-center.align-items-center > p {
         font-size: 16px;
+    }
+
+    .owl-carousel .card-body {
+        padding: 2rem !important;
+    }
+
+    .owl-carousel .card-body h4.fw-bold {
+        font-size: 25px;
+    }
+
+    p, span, li, a {
+        font-size: 21px;
     }
 }
 
@@ -180,6 +196,10 @@ h2 {
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+
+    footer.bg-dark.border-bottom.border-dark.footer.text-light > div > div > div:nth-child(3) {
+        margin-top: 30px;
     }
 }
 
@@ -242,5 +262,30 @@ h2 {
 
     .btn-row > button:first-child {
         margin-bottom: 20px;
+    }
+
+    footer.bg-dark.border-bottom.border-dark.footer.text-light > div > div > div:nth-child(3) {
+        margin-top: 0 !important;
+    }
+
+    .row.mb-4.mobile-pricing > div:last-child {
+        margin-top: 20px;
+    }
+
+    .custom-accordion {
+        width: 100%;
+    }
+
+    .work-section > div > div {
+        flex-direction: column-reverse;
+    }
+
+    section {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .modal-backdrop {
+        display: none;
     }
 }
