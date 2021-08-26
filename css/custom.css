@@ -137,6 +137,35 @@ h2 {
     font-size: 20px;
 }
 
+/* Gallery Styles */
+
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item .item{
+	float:left;
+	margin-bottom:10px;
+}
+
+.gallery_product > img {
+    width: 100% !important;
+    object-fit: cover;
+    height: 450px !important;
+}
+
 @media only screen and (max-width: 1024px) {
     .social-link {
         margin-right: 10px;
