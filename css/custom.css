@@ -317,4 +317,19 @@ h2 {
     .modal-backdrop {
         display: none;
     }
+
+    .filter-button {
+        margin-bottom: 20px;
+        margin-right: 10px;
+     }
+ 
+     #gallery-lightbox img {
+        height: 200px !important;
+     }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) { 
+    #gallery-lightbox img {
+       height: 250px !important;
+    }
 }
