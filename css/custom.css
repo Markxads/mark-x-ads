@@ -379,3 +379,13 @@ select:-webkit-autofill:focus {
        height: 250px !important;
     }
 }
+
+/* Portfolio */
+
+.portfolio-container {
+    overflow-x: hidden;
+}
+
+.font-80 {
+    font-size: 80px;
+}
